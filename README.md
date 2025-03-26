@@ -64,6 +64,7 @@ avvio dell' applicazione:
     python3 manage.py populate_db
     
 Esempio di chiamate possibili:
+
 Cercare per titolo: Se vuoi cercare tutti i libri con il titolo che contiene la parola "Python", la query sarà:
 - http://localhost:8000/api/libri/?titolo=Python
 
