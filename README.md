@@ -80,7 +80,7 @@ si può utilizzare la documentazione fornita automaticamente da django in debug 
 
 ## Perché ho usato SQLite
 
-per una realizzazione veloce di un webapi ho ritenuto opportuna l'utilizzo del db fornito dal framework, altre implementazione potrebbero favorire con un associazione a database non relazionale come MongoDB per la gestione di una mole ampia di libri, essendo i db non relazionali più efficienti in lettura che scrittura, mantenendo comunque un infrastruttura relazionale per la gestione di utenti e autori rendendo uno un as-is dell'altro e differenziandoli da un flag, si potrebbe usare un DBMS che possano gestire funzionalità aggiuntive (SQLServer,PostgreSQL...).
+Per una realizzazione veloce di questa un webapi ho ritenuto opportuno l'utilizzo del db fornito e supportato dal framework, altre implementazioni potrebbero favorire di un associazione a database non relazionale come MongoDB per la gestione di una mole ampia di libri, essendo i db non relazionali più efficienti in lettura che scrittura, mantenendo comunque un infrastruttura relazionale per la gestione di utenti e autori rendendo uno un as-is dell'altro e differenziandoli da un flag, si potrebbe inoltre usare un DBMS che possa gestire funzionalità aggiuntive (SQLServer,PostgreSQL...).
 
 ## Migliorie varie
 
