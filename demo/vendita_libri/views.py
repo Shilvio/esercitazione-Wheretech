@@ -25,6 +25,9 @@ class LibroListView(generics.ListAPIView):
 
 class LibroOrderView(generics.ListAPIView):
     queryset = Libro.objects.all().order_by('-quantita', '-prezzo')
+    filter_backends = (filters.DjangoFilterBackend, SearchFilter)
+    filterset_class = LibroFilter
+    search_fields = ['titolo', 'autore__nome', 'autore__cognome']
     serializer_class = LibroSerializer
 
 
