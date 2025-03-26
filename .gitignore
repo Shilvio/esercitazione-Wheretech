@@ -32,6 +32,9 @@ MANIFEST
 *.manifest
 *.spec
 
+*.sqlite3
+./demo/vendita_libri/migration
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
