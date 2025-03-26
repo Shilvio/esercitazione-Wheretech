@@ -76,4 +76,4 @@ Cercare per titolo e nazionalità dell'autore: Se vuoi combinare entrambe le con
 
 si può utilizzare la documentazione fornita automaticamente da django in debug mode per effettuare query sui libri a gli indirizzi:
 - http://localhost:8000/api/libri/
-- - http://localhost:8000/api/libri/ordinati
+- http://localhost:8000/api/libri/ordinati
