@@ -73,3 +73,7 @@ Cercare per nazionalità dell'autore: Se vuoi cercare i libri degli autori prove
 
 Cercare per titolo e nazionalità dell'autore: Se vuoi combinare entrambe le condizioni (ad esempio, libri con "Python" nel titolo e autori italiani), la query sarà:
 - http://localhost:8000/api/libri/?titolo=Python&autore__indirizzo__nazionalita=Italia
+
+si può utilizzare la documentazione fornita automaticamente da django in debug mode per effettuare query sui libri a gli indirizzi:
+- http://localhost:8000/api/libri/
+- - http://localhost:8000/api/libri/ordinati
