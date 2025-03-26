@@ -58,3 +58,17 @@ generazione del **DB** SQLite e prima migration:
 avvio dell' applicazione:
 
     python3 manage.py runserver
+    
+## Riempire il db con dati fittizzi per farlo basta eseguire
+
+    python3 manage.py populate_db
+    
+Esempio di chiamate possibili:
+Cercare per titolo: Se vuoi cercare tutti i libri con il titolo che contiene la parola "Python", la query sarà:
+- http://localhost:8000/api/libri/?titolo=Python
+
+Cercare per nazionalità dell'autore: Se vuoi cercare i libri degli autori provenienti dalla "Italia", la query sarà:
+- http://localhost:8000/api/libri/?autore__indirizzo__nazionalita=Italia
+
+Cercare per titolo e nazionalità dell'autore: Se vuoi combinare entrambe le condizioni (ad esempio, libri con "Python" nel titolo e autori italiani), la query sarà:
+- http://localhost:8000/api/libri/?titolo=Python&autore__indirizzo__nazionalita=Italia
