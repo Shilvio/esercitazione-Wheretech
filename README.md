@@ -78,7 +78,7 @@ si può utilizzare la documentazione fornita automaticamente da django in debug 
 - http://localhost:8000/api/libri/
 - http://localhost:8000/api/libri/ordinati
 
-## Perchè ho usato SQLite
+## Perché ho usato SQLite
 
 per una realizzazione veloce di un webapi ho ritenuto opportuna l'utilizzo del db fornito dal framework, altre implementazione potrebbero favorire con un associazione a database non relazionale come MongoDB per la gestione di una mole ampia di libri, essendo i db non relazionali più efficienti in lettura che scrittura, mantenendo comunque un infrastruttura relazionale per la gestione di utenti e autori rendendo uno un as-is dell'altro e differenziandoli da un flag, si potrebbe usare un DBMS che possano gestire funzionalità aggiuntive (SQLServer,PostgreSQL).
 
