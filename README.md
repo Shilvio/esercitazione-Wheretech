@@ -1,4 +1,4 @@
-# esercitazione Wheretech
+# Esercitazione Wheretech
 
 ## Descrizione:
 
