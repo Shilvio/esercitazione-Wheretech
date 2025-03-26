@@ -9,7 +9,7 @@ diagramma:
 - Python: Versione 3.11.9 e oltre.
 - Pip: 25.0 e oltre.
 
-## Installazione delle librerie nel Virtual Enviroment:
+## Installazione del Virtual Enviroment:
 
 È consigliato l'utilizzo di un Virtual Enviroment per evitare conflitti con i pacchetti e librerie installati globalmente.
 
@@ -37,7 +37,7 @@ Attivare il Virtual Enviroment:
 
     deactivate
 
-## Installazione del Virtual Enviroment:
+## Installazione delle librerie nel Virtual Enviroment:
 per installare le dipendenze richieste dalla WebApi rimanere nella cartella root ed eseguire i seguenti comandi:
 
 - Aggiornare Pip:
@@ -49,7 +49,7 @@ per installare le dipendenze richieste dalla WebApi rimanere nella cartella root
         pip install -r ./requirements.txt
 
 ## Avviare la WebApi:
-Una volta aver attivato il Virtual Enviroment, recarsi da terminale nella cartella **esercitazionenephila** ed eseguire i seguenti comandi:
+Una volta aver attivato il Virtual Enviroment, recarsi da terminale nella cartella **demo** ed eseguire i seguenti comandi:
 
 generazione del **DB** SQLite e prima migration:
 
@@ -80,8 +80,8 @@ si può utilizzare la documentazione fornita automaticamente da django in debug 
 
 ## Perché ho usato SQLite
 
-per una realizzazione veloce di un webapi ho ritenuto opportuna l'utilizzo del db fornito dal framework, altre implementazione potrebbero favorire con un associazione a database non relazionale come MongoDB per la gestione di una mole ampia di libri, essendo i db non relazionali più efficienti in lettura che scrittura, mantenendo comunque un infrastruttura relazionale per la gestione di utenti e autori rendendo uno un as-is dell'altro e differenziandoli da un flag, si potrebbe usare un DBMS che possano gestire funzionalità aggiuntive (SQLServer,PostgreSQL).
+per una realizzazione veloce di un webapi ho ritenuto opportuna l'utilizzo del db fornito dal framework, altre implementazione potrebbero favorire con un associazione a database non relazionale come MongoDB per la gestione di una mole ampia di libri, essendo i db non relazionali più efficienti in lettura che scrittura, mantenendo comunque un infrastruttura relazionale per la gestione di utenti e autori rendendo uno un as-is dell'altro e differenziandoli da un flag, si potrebbe usare un DBMS che possano gestire funzionalità aggiuntive (SQLServer,PostgreSQL...).
 
 ## Migliorie varie
 
-Oltre la citata miglioria riguardante il db, è possibile aggiungere un sistema di carrello-cassa e pagamento al sistema per la ricezione di transazioni attraverso un altro servizio per la gestione delle suddette, un sistema di autenticazione utente, anche con Oauth attraverso servizzi esterni.
+Oltre la citata miglioria riguardante il db, potrebbe giovare aggiungere un sistema di carrello-cassa e pagamento al sistema per la ricezione di transazioni attraverso un altro servizio per la gestione delle suddette, un sistema di autenticazione utente, anche con Oauth attraverso servizzi esterni.
