@@ -9,7 +9,7 @@ diagramma:
 - Python: Versione 3.11.9 e oltre.
 - Pip: 25.0 e oltre.
 
-## Installazione del Virtual Enviroment:
+## Installazione delle librerie nel Virtual Enviroment:
 
 È consigliato l'utilizzo di un Virtual Enviroment per evitare conflitti con i pacchetti e librerie installati globalmente.
 
